@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/manageLanding-Page/static/css/main.f7dd34cd.css",
-    "main.js": "/manageLanding-Page/static/js/main.0563f0a2.js",
+    "main.css": "/manageLanding-Page/static/css/main.f216f1da.css",
+    "main.js": "/manageLanding-Page/static/js/main.0e18b0b0.js",
     "static/js/787.a97cb00a.chunk.js": "/manageLanding-Page/static/js/787.a97cb00a.chunk.js",
     "static/media/avatar-ali.png": "/manageLanding-Page/static/media/avatar-ali.88f9155cb730934f4d7c.png",
     "static/media/illustration-intro.svg": "/manageLanding-Page/static/media/illustration-intro.cb9a8a9551ca99f99a125230d38a2c36.svg",
@@ -18,12 +18,12 @@
     "static/media/icon-close.svg": "/manageLanding-Page/static/media/icon-close.d5ba0dc53461cfc81979638f3b9fcf2e.svg",
     "static/media/bg-tablet-pattern.svg": "/manageLanding-Page/static/media/bg-tablet-pattern.b6990a984c7bcc142d3e9783736e996a.svg",
     "static/media/icon-hamburger.svg": "/manageLanding-Page/static/media/icon-hamburger.8dcf47cc6f3180ad040f1173f3592504.svg",
-    "main.f7dd34cd.css.map": "/manageLanding-Page/static/css/main.f7dd34cd.css.map",
-    "main.0563f0a2.js.map": "/manageLanding-Page/static/js/main.0563f0a2.js.map",
+    "main.f216f1da.css.map": "/manageLanding-Page/static/css/main.f216f1da.css.map",
+    "main.0e18b0b0.js.map": "/manageLanding-Page/static/js/main.0e18b0b0.js.map",
     "787.a97cb00a.chunk.js.map": "/manageLanding-Page/static/js/787.a97cb00a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7dd34cd.css",
-    "static/js/main.0563f0a2.js"
+    "static/css/main.f216f1da.css",
+    "static/js/main.0e18b0b0.js"
   ]
 }
