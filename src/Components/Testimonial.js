@@ -36,7 +36,7 @@ function Testimonial()
         )
     })
     return (
-        <div className='section'>
+        <div className='section animate__animated animate__slideInDown'>
             <div className="content  items-center flex-col justify-evenly">
                 <h1 className='h1 text-[2rem]'>What they've said</h1>
 

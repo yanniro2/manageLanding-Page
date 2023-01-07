@@ -3,7 +3,7 @@ import bg from "../images/bg-simplify-section-desktop.svg"
 function Banner()
 {
     return (
-        <div className='h-[8rem] w-screen bg-Bright-Red justify-center items-center flex relative Mobile:h-[50vh]'>
+        <div className='h-[8rem] w-screen bg-Bright-Red justify-center items-center flex relative Mobile:h-[50vh] animate__animated animate__lightSpeedInRight'>
             <div className="content flex justify-between z-[100] Mobile:flex-col Mobile:text-center Mobile:justify-center Mobile:items-center gap-8">
                 <div className=" flex items-start justify-center Mobile:items-center"> <h1 className='h1 text-[2rem] text-White'>Simplify how your team works today.
                 </h1></div>

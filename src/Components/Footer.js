@@ -8,7 +8,7 @@ import social_5 from "../images/icon-youtube.svg";
 function Footer()
 {
     return (
-        <div className='h-[12rem] w-screen bg-Very-Dark-Blue justify-center items-center flex  pt-9 flex-col Mobile:h-full Mobile:gap-5'>
+        <div className='h-[12rem] w-screen bg-Very-Dark-Blue justify-center items-center flex  pt-9 flex-col Mobile:h-full Mobile:gap-5 animate__animated animate__flipInX Tablet:text-[14px]'>
             <div className="content flex justify-between h-full Mobile:flex-col Mobile:h-full Mobile:gap-5">
 
                 {/* LOGo */}

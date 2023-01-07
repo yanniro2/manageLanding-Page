@@ -23,7 +23,7 @@ function Manage()
     const Task = () => task.map(data =>
     {
         return (
-            <div className="box flex gap-5" key={data.id} >
+            <div className="box flex gap-5 animate__animated animate__rotateInDownRight" key={data.id} >
                 <div className="number bg-Bright-Red rounded-full h-[3rem] flex items-center justify-center w-[15rem] text-White font-l drop-shadow Mobile:hidden">
                     {data.id}
 
@@ -41,7 +41,7 @@ function Manage()
     return (
         <div className='section overflow-hidden relative'>
             <div className="content p-5 gap-[2rem] z-10 Mobile:flex-col">
-                <div className="left gap-3 items-start justify-start h-full Mobile:text-center">
+                <div className="left gap-3 items-start justify-start h-full Mobile:text-center animate__animated animate__rotateInDownLeft">
                     <h1 className='h1 text-[2rem]'>
                         What’s different about Manage?
                     </h1>
