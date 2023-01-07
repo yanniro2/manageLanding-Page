@@ -17,7 +17,7 @@
 
 ## Overview
 
-### The challenge
+### About the Project
 
 Users should be able to:
 
@@ -29,7 +29,7 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://yanniro2.github.io/manageLanding-Page)
 
 ## My process
 
