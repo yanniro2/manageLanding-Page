@@ -29,7 +29,7 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL: [Add live site URL here](https://yanniro2.github.io/manageLanding-Page)
+- Live Site URL: [Manage Landing page](https://yanniro2.github.io/manageLanding-Page)
 
 ## My process
 
