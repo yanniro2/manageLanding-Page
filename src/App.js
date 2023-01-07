@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import HeroSection from "./Components/HeroSection";
+import Manage from "./Components/Manage";
+import Testimonial from "./Components/Testimonial"
+import Banner from "./Components/Banner"
+import MobileNav from "./Components/MobileNav";
+import { useState } from "react";
 
-function App() {
+
+function App()
+{
+
+  const [hide, setHide] = useState(null);
+  const menuClick = () =>
+  {
+    setHide(!hide);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App h-full w-full font-viet text-normal flex flex-col relative bg-White overflow-hidden  scroll-smooth Mobile:text-[14px] ">
+      <Header menuClick={menuClick} />
+      <HeroSection />
+      <Manage />
+      <Testimonial />
+      <Banner />
+      <Footer />
+      {hide && <MobileNav menuClick={menuClick} />}
     </div>
   );
 }

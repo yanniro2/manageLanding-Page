@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    h1 {
+        @apply text-Dark-Blue ;
+    }
+    p {
+        @apply text-Dark-Grayish-Blue;
+    }
+
+   
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+    .btn {
+        @apply bg-Bright-Red text-White px-6 py-3 rounded-full font-m drop-shadow hover:bg-Bright-Red-2 transition; 
+    }
+    .h1 {
+        @apply text-[3rem] font-l leading-tight Mobile:text-[2rem];
+    }
+    .content {
+        @apply w-4/5 flex items-center justify-between h-full default:w-full default:p-5 Tablet:w-full Tablet:p-5;
+    }
+    .section {
+        @apply w-screen h-screen flex justify-center overflow-hidden pt-[6rem] Mobile:h-full Mobile:pt-[1rem] Tablet:pt-[1rem];
+    }
+    .left , .right {
+        @apply w-1/2  flex flex-col Mobile:w-full Mobile:h-1/2;
+    }
+
+    .a {
+       @apply text-Dark-Blue hover:text-Dark-Grayish-Blue transition;
+    }
+    .a2 {
+        @apply text-Very-Pale-Red hover:text-Bright-Red transition;
+    }
+
+    .i {
+        @apply hover:scale-125 transition;
+    }
 }
